@@ -4,15 +4,15 @@ This project contains the following Python files and data files:
 
 ## Python Files:
 
-1. **main.py**: Contains the Traveling Salesman Problem (TSP) code, including a brute force algorithm and a heuristic algorithm.
-2. **hcp.py**: Contains the reduction from Hamiltonian Circuit Problem (HCP) to TSP.
-3. **vertexcovertoham.py**: Contains the reduction from Vertex Cover to HCP. To get the final TSP problem, run this code first, then run hcp.py.
+1. `main.py`: Contains the Traveling Salesman Problem (TSP) code, including a brute force algorithm and a heuristic algorithm.
+2. `hcp.py`: Contains the reduction from Hamiltonian Circuit Problem (HCP) to TSP.
+3. `vertexcovertoham.py`: Contains the reduction from Vertex Cover to HCP. To get the final TSP problem, run this code first, then run hcp.py.
 
 ## Data Files:
 
-1. **travellingsalesman.dat**: This file has the input for the TSP problem and can be used to test the brute force and heuristic algorithms. It can be changed for different test cases.
-2. **hamiltonian.dat**: This file is for the HCP to TSP reduction. hcp.py takes this file as input and produces hamiltoniantoTsp.dat, which contains the TSP problem after the reduction.
-3. **vertexcover.dat**: This file contains the input for the Vertex Cover problem to be reduced to HCP. The Python file vertexcovertoham.py takes this file as input and produces vertextoHam.dat, which is then used as input for hcp.py. The output file hamiltoniantoTsp.dat can then be used as input for the TSP code.
+1. `travellingsalesman.dat`: This file has the input for the TSP problem and can be used to test the brute force and heuristic algorithms. It can be changed for different test cases.
+2. `hamiltonian.dat`: This file is for the HCP to TSP reduction. hcp.py takes this file as input and produces hamiltoniantoTsp.dat, which contains the TSP problem after the reduction.
+3. `vertexcover.dat`: This file contains the input for the Vertex Cover problem to be reduced to HCP. The Python file vertexcovertoham.py takes this file as input and produces vertextoHam.dat, which is then used as input for hcp.py. The output file hamiltoniantoTsp.dat can then be used as input for the TSP code.
 
 # Problem Description
 
