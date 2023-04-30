@@ -44,8 +44,7 @@ Sample test cases for the Vertex Cover problem are provided in the following for
 <edge2_u> <edge2_v> <edge2_weight>
 ...
 $
-
-`
+```
 
 **Different test cases can be created by modifying the input files:**
 
