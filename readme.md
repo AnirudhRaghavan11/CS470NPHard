@@ -99,5 +99,6 @@ In the new graph G', there are three ways to traverse the widget:
 1. Enter from u_1, go somewhere else in the graph, and then come back through v_2.
 2. Enter and exit through u_1 and u_2.
 3. Enter and exit through v_1 and v_2.
+
 By replacing each edge in G with a widget and making the proper connections, we can create a graph G' that has a Hamiltonian Circuit if and only if G has a vertex cover of size k. This transformation can be done in polynomial time, as it involves a linear number of operations based on the number of edges in the graph G.
 Then we can apply the reduction from the Hamiltonian Circuit problem to the Traveling Salesman problem described above to solve the TSP problem, which will give the reduction from vertex cover to TSP. 
