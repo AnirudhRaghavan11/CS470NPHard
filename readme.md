@@ -36,6 +36,17 @@ The project can be run using Python 3. To run the different parts of the project
 
 # Test Cases:
 
+Test Cases
+Sample test cases for the Vertex Cover problem are provided in the following format:
+
+`
+<number_of_vertices>
+<edge1_u> <edge1_v> <edge1_weight>
+<edge2_u> <edge2_v> <edge2_weight>
+...
+$
+`
+
 **Different test cases can be created by modifying the input files:**
 
 1. For the TSP algorithms, modify `travellingsalesman.dat`.
