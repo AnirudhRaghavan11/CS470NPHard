@@ -82,7 +82,7 @@ The Hamiltonian Circuit problem can be reduced to the TSP problem by converting 
 2. If an edge does not exist between two vertices in the original graph, set the weight of the corresponding edge in the complete graph to a large value (e.g., M, where M is greater than the total number of vertices).
 By doing this, we ensure that the optimal TSP solution will have a total cost less than or equal to the number of vertices in the graph, which corresponds to a Hamiltonian Circuit.
 
-### Vertex Cover to Hamiltonian Circuit to Traveling Salesman Problem
+## Vertex Cover to Hamiltonian Circuit to Traveling Salesman Problem
 
 The reduction from the Vertex Cover problem to the Hamiltonian Circuit problem can be explained as follows:
 

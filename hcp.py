@@ -30,7 +30,7 @@ def write_dat_file(file_path, tsp_values):
 
 
 # Read the Hamiltonian input file
-hcp_file_path = 'hamiltonian.dat'
+hcp_file_path = 'vertextoHam.dat'
 num_nodes, edges = read_hamiltonian_file(hcp_file_path)
 
 # Convert the Hamiltonian instance to a TSP instance
