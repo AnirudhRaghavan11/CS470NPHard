@@ -74,7 +74,7 @@ performance of the algorithms.
 
 2. **Vertex Cover to HCP to TSP**: The Vertex Cover problem is first reduced to HCP by creating a Hamiltonian graph in which each vertex in the original graph is replaced by two vertices connected by an edge. Edges in the original graph are replaced by a pair of edges connecting the corresponding vertices in the Hamiltonian graph. Solving the HCP for this Hamiltonian graph provides a solution to the Vertex Cover problem. The HCP is then further reduced to TSP using the HCP to TSP mapping described above.
 
-### Hamiltonian Circuit Problem to Traveling Salesman Problem
+## Hamiltonian Circuit Problem to Traveling Salesman Problem
 
 The Hamiltonian Circuit problem can be reduced to the TSP problem by converting the graph into a complete graph and setting the edge weights as follows:
 
